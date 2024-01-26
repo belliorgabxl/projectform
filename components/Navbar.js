@@ -59,11 +59,11 @@ export default function Navbar(){
                             </div>
                         </div>
                     <Link href="/addRoom" className={styles.menulist}><span >add Room</span></Link>
-                    <Link href="/pages/RoomType" className={styles.menulist}><span >Roomtype</span></Link>
+                    <Link href="/RoomType" className={styles.menulist}><span >Roomtype</span></Link>
                     <Link href="/" className={styles.menulist}><span>Announcment</span></Link>
                     <Link href="/NearMe" className={styles.menulist}><span>NearMe</span></Link>
                     <Link href="/" className={styles.menulist}><span>Promotion</span></Link>
-                    <Link href="/GenPDF" className={styles.menulist}><span>ทำสัญญาเช่าหอ</span></Link>
+                    <Link href="/" className={styles.menulist}><span>Another</span></Link>
                     
                 </div>
 

@@ -306,11 +306,11 @@ export default function InputBox(){
             <label className={styles.label}>ยินยอม</label>
             </span>
           
-          <span>
-            <input className={styles.rd}
-            type="radio" name="status" value="no"/>
-            <label className={styles.label}>ไม่ยินยอม</label>
-          </span>
+            <span>
+              <input className={styles.rd}
+              type="radio" name="status" value="no"/>
+              <label className={styles.label}>ไม่ยินยอม</label>
+            </span>
             
           </div>
       

@@ -12,420 +12,210 @@ export default function RoomType(){
 
                 
                 <div className={style.RoomType}>  
-                    Comfort Room
+                    RoomType
                 </div>
 
 
-                <div className={style.ButtonRoomType}>
-                    <Link href="#" >SeeAll </Link>
-                </div>
-
-
-                <div className={style.boxgrid}>
-                        <div>
-                           <div className={style.Imageroom}>
-                                <Link href="#"><img src="https://i.pinimg.com/564x/ad/0d/29/ad0d2998cef2f86a14b19283ac549565.jpg" width ={311} height ={200} /></Link>    
-                           </div>
-                           <div className={style.textsell}>
-                                <div >
-                                    Comfort Room
-                                    Ladkrabang  3500B
-                                </div>
-                           </div>
-                           
-                        
-                        </div>
-
-                        <div>
-                           <div>
-                                <Link href="#"><img src="https://i.pinimg.com/564x/ad/0d/29/ad0d2998cef2f86a14b19283ac549565.jpg" width ={311} height ={200} /></Link>    
-                           </div>
-                           <div className={style.textsell}>
-                                <div >
-                                    Luxe Room
-                                    Ladkrabang  5500B
-                                </div>
-                           </div>
-                           
-                        
-                        </div>
-
-                        <div>
-                           <div>
-                                <Link href="#"><img src="https://i.pinimg.com/564x/ad/0d/29/ad0d2998cef2f86a14b19283ac549565.jpg" width ={311} height ={200} /></Link>    
-                           </div>
-                           <div className={style.textsell}>
-                                <div >
-                                    Standard Room
-                                    Ladkrabang  4500B
-                                </div>
-                           </div>
-                           
-                        
-                        </div>
-                </div>
-
-
-
-                <div className={style.RoomType}> 
-                    Standard Room
-                </div>
-
-
-                <div className={style.ButtonRoomType}>
-                    <Link href="#" >SeeAll </Link>
-                </div>
-
+            
                 
                 <div className={style.boxgrid}>
-                        <div>
-                           <div>
-                                <Link href="#"><img src="https://i.pinimg.com/564x/ad/0d/29/ad0d2998cef2f86a14b19283ac549565.jpg" width ={311} height ={200} /></Link>    
+                        <div  className={style.roomBox}>
+                           <div className={style.img1}>
+                                <img src="https://i.pinimg.com/originals/e2/60/71/e260712a4ebfe4e58d4c182fa1ac1a4d.gif" width ={311} height ={200} style={{borderRadius: '20px 20px 0 0'}}/>  
                            </div>
                            <div className={style.textsell}>
                                 <div >
-                                    Comfort Room
-                                    Ladkrabang  3500B
+                                    SJ House
                                 </div>
+                           </div>
+                           <div className={style.icon1}>
+                                <img src="/map.png" width={20} height={20}></img>
+                                ซ.ลาดกระบัง 11/6 แยกสุขสมาน
+                           </div>
+                           <div>
+                                <Link href="/RoomDetail"  className={style.Button2} ><span>choose</span></Link>
+                           </div>
+                        
+                        </div>
+
+                        <div className={style.roomBox}>
+                           <div>
+                                <Link href="#"><img src="https://i.pinimg.com/564x/61/11/00/611100f92e606fb39547c66f80e827fd.jpg" width ={311} height ={200} style={{borderRadius: '20px 20px 0 0'}} /></Link>    
+                           </div>
+                           <div className={style.textsell}>
+                                <div >
+                                    Maethus 
+                                </div>
+                           </div>
+                           <div className={style.icon1}>
+                                <img src="/map.png" width={20} height={20}></img>
+                                ซ.ลาดกระบัง 44 แยกสุขสมาน
+                           </div>
+                           <div>
+                                <Link href="/RoomDetail"  className={style.Button2} ><span>choose</span></Link>
                            </div>
                            
                         
                         </div>
 
-                        <div>
+                        <div className={style.roomBox}>
                            <div>
-                                <Link href="#"><img src="https://i.pinimg.com/564x/ad/0d/29/ad0d2998cef2f86a14b19283ac549565.jpg" width ={311} height ={200} /></Link>    
+                                <Link href="#"><img src="https://i.pinimg.com/564x/6b/8d/66/6b8d6606dbf23f5ec6eed11bc005d9f9.jpg" width ={311} height ={200} style={{borderRadius: '20px 20px 0 0'}} /></Link>    
                            </div>
                            <div className={style.textsell}>
-                                <div >
-                                    Luxe Room
-                                    Ladkrabang  5500B
+                                <div>
+                                    BB Court
                                 </div>
                            </div>
-                           
-                        
-                        </div>
-
-                        <div>
+                           <div className={style.icon1}>
+                                <img src="/map.png" width={20} height={20}></img>
+                                ซ.ลาดกระบัง 14/2 ถ.ลาดกระบัง
+                           </div>
                            <div>
-                                <Link href="#"><img src="https://i.pinimg.com/564x/ad/0d/29/ad0d2998cef2f86a14b19283ac549565.jpg" width ={311} height ={200} /></Link>    
+                                <Link href="#"  className={style.Button2} ><span>choose</span></Link>
                            </div>
-                           <div className={style.textsell}>
-                                <div >
-                                    Standard Room
-                                    Ladkrabang  4500B
-                                </div>
-                           </div>
-                           
-                        
                         </div>
                 </div>
 
 
 
-                <div className={style.RoomType}> 
-                    ห้องเช่ารายวัน
+
+
+                <div className={style.boxgrid}>
+                        <div  className={style.roomBox}>
+                           <div className={style.img1}>
+                                <img src="https://i.pinimg.com/736x/d3/c0/85/d3c0857dc009024e6260285e4cb1b125.jpg" width ={311} height ={200} style={{borderRadius: '20px 20px 0 0'}}/>  
+                           </div>
+                           <div className={style.textsell}>
+                                <div >
+                                    K.P.
+                                </div>
+                           </div>
+                           <div className={style.icon1}>
+                                <img src="/map.png" width={20} height={20}></img>
+                                ซ. 42/6 ลาดกระบัง
+                           </div>
+                           <div>
+                                <Link href="#"  className={style.Button2} ><span>choose</span></Link>
+                           </div>
+                        
+                        </div>
+
+                        <div className={style.roomBox}>
+                           <div>
+                                <Link href="#"><img src="https://i.pinimg.com/736x/79/d8/aa/79d8aa6263ffc42f3f9ff2f5285b2c7b.jpg" width ={311} height ={200} style={{borderRadius: '20px 20px 0 0'}} /></Link>    
+                           </div>
+                           <div className={style.textsell}>
+                                <div >
+                                    B9 airport
+                                </div>
+                           </div>
+                           <div className={style.icon1}>
+                                <img src="/map.png" width={20} height={20}></img>
+                                ซ.ลาดกระบัง ถ.ลาดกระบัง
+                           </div>
+                           <div>
+                                <Link href="#"  className={style.Button2} ><span>choose</span></Link>
+                           </div>
+                           
+                        
+                        </div>
+
+                        <div className={style.roomBox}>
+                           <div>
+                                <Link href="#"><img src="https://i.pinimg.com/564x/b7/34/89/b73489fcc01624968175be477deb592c.jpg" width ={311} height ={200} style={{borderRadius: '20px 20px 0 0'}} /></Link>    
+                           </div>
+                           <div className={style.textsell}>
+                                <div>
+                                    AP
+                                </div>
+                           </div>
+                           <div className={style.icon1}>
+                                <img src="/map.png" width={20} height={20}></img>
+                                เกกี 2 ลาดกระบัง
+                           </div>
+                           <div>
+                                <Link href="#"  className={style.Button2} ><span>choose</span></Link>
+                           </div>
+                        </div>
+                </div>
+
+                <div className={style.boxgrid}>
+                        <div  className={style.roomBox}>
+                           <div className={style.img1}>
+                                <img src="https://i.pinimg.com/564x/d2/ad/e5/d2ade5e8f524c7bc3c72f286f78b547b.jpg" width ={311} height ={200} style={{borderRadius: '20px 20px 0 0'}}/>  
+                           </div>
+                           <div className={style.textsell}>
+                                <div >
+                                    PP home
+                                </div>
+                           </div>
+                           <div className={style.icon1}>
+                                <img src="/map.png" width={20} height={20}></img>
+                                ซ.ลาดกระบัง 11/6 แยกสุขสมาน
+                           </div>
+                           <div>
+                                <Link href="#"  className={style.Button2} ><span>choose</span></Link>
+                           </div>
+                        
+                        </div>
+
+                        <div className={style.roomBox}>
+                           <div>
+                                <Link href="#"><img src="https://i.pinimg.com/564x/2a/bf/bd/2abfbdff378a7f4280ef5d26499c97cb.jpg" width ={311} height ={200} style={{borderRadius: '20px 20px 0 0'}} /></Link>    
+                           </div>
+                           <div className={style.textsell}>
+                                <div >
+                                    Gin Grand
+                                </div>
+                           </div>
+                           <div className={style.icon1}>
+                                <img src="/map.png" width={20} height={20}></img>
+                                ซ.ลาดกระบัง 44 แยกสุขสมาน
+                           </div>
+                           <div>
+                                <Link href="#"  className={style.Button2} ><span>choose</span></Link>
+                           </div>
+                           
+                        
+                        </div>
+
+                        <div className={style.roomBox}>
+                           <div>
+                                <Link href="#"><img src="https://i.pinimg.com/564x/c1/93/81/c193815be0ecef69b7c0c0293f3a5b35.jpg" width ={311} height ={200} style={{borderRadius: '20px 20px 0 0'}} /></Link>    
+                           </div>
+                           <div className={style.textsell}>
+                                <div>
+                                    Skk Court
+                                </div>
+                           </div>
+                           <div className={style.icon1}>
+                                <img src="/map.png" width={20} height={20}></img>
+                                ซ.ลาดกระบัง 14/2 ถ.ลาดกระบัง
+                           </div>
+                           <div>
+                                <Link href="#"  className={style.Button2} ><span>choose</span></Link>
+                           </div>
+                        </div>
                 </div>
 
 
-                <div className={style.ButtonRoomType}>
-                    <Link href="#" >SeeAll </Link>
-                </div>
+
+                <div className={style.Box5}>
+                  <img src="/imgimg.jpg" width={900} height={400} style={{borderRadius: '20px'}}></img>
+               </div>
 
                 
-                <div className={style.boxgrid}>
-                        <div>
-                           <div>
-                                <Link href="#"><img src="https://i.pinimg.com/564x/ad/0d/29/ad0d2998cef2f86a14b19283ac549565.jpg" width ={311} height ={200} /></Link>    
-                           </div>
-                           <div className={style.textsell}>
-                                <div >
-                                    Comfort Room
-                                    Ladkrabang  350B
-                                </div>
-                           </div>
-                           
-                        
-                        </div>
 
-                        <div>
-                           <div>
-                                <Link href="#"><img src="https://i.pinimg.com/564x/ad/0d/29/ad0d2998cef2f86a14b19283ac549565.jpg" width ={311} height ={200} /></Link>    
-                           </div>
-                           <div className={style.textsell}>
-                                <div >
-                                    Luxe Room
-                                    Ladkrabang  600B
-                                </div>
-                           </div>
-                           
-                        
-                        </div>
-
-                        <div>
-                           <div>
-                                <Link href="#"><img src="https://i.pinimg.com/564x/ad/0d/29/ad0d2998cef2f86a14b19283ac549565.jpg" width ={311} height ={200} /></Link>    
-                           </div>
-                           <div className={style.textsell}>
-                                <div >
-                                    Standard Room
-                                    Ladkrabang  400B
-                                </div>
-                           </div>
-                           
-                        
-                        </div>
-                </div>
-
-
-
-                <div className={style.RoomType}> 
-                    ห้องสวีท
-                </div>
-
-
-                <div className={style.ButtonRoomType}>
-                    <Link href="#" >SeeAll </Link>
-                </div>
-
-                
-                <div className={style.boxgrid}>
-                        <div>
-                           <div>
-                                <Link href="#"><img src="https://i.pinimg.com/564x/ad/0d/29/ad0d2998cef2f86a14b19283ac549565.jpg" width ={311} height ={200} /></Link>    
-                           </div>
-                           <div className={style.textsell}>
-                                <div >
-                                    Comfort Room
-                                    Ladkrabang  3050B
-                                </div>
-                           </div>
-                           
-                        
-                        </div>
-
-                        <div>
-                           <div>
-                                <Link href="#"><img src="https://i.pinimg.com/564x/ad/0d/29/ad0d2998cef2f86a14b19283ac549565.jpg" width ={311} height ={200} /></Link>    
-                           </div>
-                           <div className={style.textsell}>
-                                <div >
-                                    Luxe Room
-                                    Ladkrabang  6000B
-                                </div>
-                           </div>
-                           
-                        
-                        </div>
-
-                        <div>
-                           <div>
-                                <Link href="#"><img src="https://i.pinimg.com/564x/ad/0d/29/ad0d2998cef2f86a14b19283ac549565.jpg" width ={311} height ={200} /></Link>    
-                           </div>
-                           <div className={style.textsell}>
-                                <div >
-                                    Standard Room
-                                    Ladkrabang  4000B
-                                </div>
-                           </div>
-                           
-                        
-                        </div>
-                </div>
-
-
-
-                <div className={style.RoomType}> 
-                    Party Room
-                </div>
-
-
-                <div className={style.ButtonRoomType}>
-                    <Link href="#" >SeeAll </Link>
-                </div>
-
-                
-                <div className={style.boxgrid}>
-                        <div>
-                           <div>
-                                <Link href="#"><img src="https://i.pinimg.com/564x/ad/0d/29/ad0d2998cef2f86a14b19283ac549565.jpg" width ={311} height ={200} /></Link>    
-                           </div>
-                           <div className={style.textsell}>
-                                <div >
-                                    Comfort Room
-                                    Ladkrabang  11,000B
-                                </div>
-                           </div>
-                           
-                        
-                        </div>
-
-                        <div>
-                           <div>
-                                <Link href="#"><img src="https://i.pinimg.com/564x/ad/0d/29/ad0d2998cef2f86a14b19283ac549565.jpg" width ={311} height ={200} /></Link>    
-                           </div>
-                           <div className={style.textsell}>
-                                <div >
-                                    Luxe Room
-                                    Ladkrabang  16,000B
-                                </div>
-                           </div>
-                           
-                        
-                        </div>
-
-                        <div>
-                           <div>
-                                <Link href="#"><img src="https://i.pinimg.com/564x/ad/0d/29/ad0d2998cef2f86a14b19283ac549565.jpg" width ={311} height ={200} /></Link>    
-                           </div>
-                           <div className={style.textsell}>
-                                <div >
-                                    Standard Room
-                                    Ladkrabang  10,000B
-                                </div>
-                           </div>
-                           
-                        
-                        </div>
-                </div>
-
-
-
-                <div className={style.RoomType}>  
-                    Family Room
-                </div>
-
-
-                <div className={style.ButtonRoomType}>
-                    <Link href="#" >SeeAll </Link>
-                </div>
-
-
-                <div className={style.boxgrid}>
-                        <div>
-                           <div className={style.Imageroom}>
-                                <Link href="#"><img src="https://i.pinimg.com/564x/ad/0d/29/ad0d2998cef2f86a14b19283ac549565.jpg" width ={311} height ={200} /></Link>    
-                           </div>
-                           <div className={style.textsell}>
-                                <div >
-                                    Comfort Room
-                                    Ladkrabang  3500B
-                                </div>
-                           </div>
-                           
-                        
-                        </div>
-
-                        <div>
-                           <div>
-                                <Link href="#"><img src="https://i.pinimg.com/564x/ad/0d/29/ad0d2998cef2f86a14b19283ac549565.jpg" width ={311} height ={200} /></Link>    
-                           </div>
-                           <div className={style.textsell}>
-                                <div >
-                                    Luxe Room
-                                    Ladkrabang  5500B
-                                </div>
-                           </div>
-                           
-                        
-                        </div>
-
-                        <div>
-                           <div>
-                                <Link href="#"><img src="https://i.pinimg.com/564x/ad/0d/29/ad0d2998cef2f86a14b19283ac549565.jpg" width ={311} height ={200} /></Link>    
-                           </div>
-                           <div className={style.textsell}>
-                                <div >
-                                    Standard Room
-                                    Ladkrabang  4500B
-                                </div>
-                           </div>
-                           
-                        
-                        </div>
-                </div>
-
-
-
-
-                <div className={style.RecommendRoom}>
-                            Recommend Room
-                </div>
-
-
-                <div className={style.boxgridshow}>
-                    <div>
-                        <div>
-                           <div className={style.ImageRecommendRoom }>
-                              <Link href="/"><img src="https://i.pinimg.com/564x/ad/0d/29/ad0d2998cef2f86a14b19283ac549565.jpg" width ={500} height ={400}/></Link>
-                           </div>
-                        </div>
-
-                    </div>
-                    <div className={style.text}>
-                        <div className={style.textStandardRoom}>
-                            Standard Room
-                        </div>
-                        <div className={style.textStandardRoom}>
-                            <div>Ladkrabang 54</div>
-                            <div>Price 4500 B/Month</div>
-                        </div>
-                        <div className={style.textAmenities}>
-                            <div>
-                                <img src = "https://i.pinimg.com/564x/ad/0d/29/ad0d2998cef2f86a14b19283ac549565.jpg" width={20} height ={20}  />
-                                Room Amenities
-                            </div>
-                            
-                        </div>
-                        <div className={style.textAllAmenities}>
-                            <div>
-                                <Image src = "/เตียง.png" width={10} height ={10}  />  
-                                furniture
-                            </div>
-                            <div>
-                                <Image src = "/wifi.svg" width={10} height ={10}  />
-                                Wi-Fi
-                            </div>
-                            <div>
-                            <Image src = "/Washing.png" width={10} height ={10}  />
-                                Washing Machine
-                            </div>
-                        </div>
-                        <div className={style.textAmenities}>
-                            <Image src = "/building.svg" width={20} height ={20}  />
-                            Building Amenities
-                       </div>
-                        <div className={style.textAllAmenities}>
-                            <div>
-                                <Image src = "/parking.png" width={10} height ={10}  />
-                                Parking
-                            </div>
-                            <div>
-                                <Image src = "/globe.svg" width={10} height ={10}  />
-                                Internet Cafe
-                            </div>
-                            <div>
-                                <Image src = "/cctv.png" width={10} height ={10}  />
-                                CCTV
-                            </div>
-                            <div>
-                                <Image src = "/Drink.png" width={10} height ={10}  />
-                                Drinking Water Vending
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <div>
-                    
-                </div>
 
 
 
 
 
             </div>
+
+
+            
 
         </div>
     )

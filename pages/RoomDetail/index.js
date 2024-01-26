@@ -3,8 +3,15 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import style from '../RoomDetail/roomdetial.module.css';
 import Image from 'next/image';
+import Footer from '@/components/Footer';
+import Space from '@/components/SpaceTab';
+import { useRouter } from 'next/router';
 
 const Home = () => {
+  const router = useRouter();
+  function BookingFunc(){
+    router.push("/Booking")
+  }
   return (
     <div>
       <Navbar />
@@ -46,7 +53,7 @@ const Home = () => {
               </div>
            </div>
              <div className={style.textbar1}>
-              <button className={style.button}>Booking</button></div>
+              <button onClick={BookingFunc} className={style.button}>Booking</button></div>
               
             </div>
             <div className={style.dorm}>
@@ -84,6 +91,8 @@ const Home = () => {
 
             </div>
           </div>
+          <Space/>
+          <Footer/>
         </div>
  
    

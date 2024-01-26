@@ -1,0 +1,112 @@
+.body{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    background-color:#E8E8E8;
+  }
+  
+.container{
+    display: grid;
+    place-items: center;
+    width: 93%;
+    background-image: url(https://img.freepik.com/free-photo/white-wall-texture-background_24972-2224.jpg?w=740&t=st=1702744123~exp=1702744723~hmac=9d52f17a58211bf640c8f0072e6e08a033756ed23d115c3d47c5530927f574eb);
+    margin-top: 140px;
+  }
+.container a{
+    text-decoration: none;
+  }
+
+.BookingZone{
+    margin: 20px 0 0 0;
+    display: grid;
+    place-items: center;
+}
+
+.Topic{
+    background-color: #282828;
+    color: white;
+    width: 270px;
+    height: 80px;
+    font-size: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 0.5rem;
+}
+
+.formBox{
+    box-shadow: 0 2px 10px gray;
+    width: 750px;
+    background-color: white;
+    border-radius: 1.5rem;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin:10px 0 20px 0;
+}
+.inputBox{
+    width:180px;
+    border-radius: 0.3rem;
+    border: 2px solid #eeeeee;
+    margin: 10px 10px 10px 10px;
+    height: 25px;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+}
+.dorminput{
+    width:120px;
+    border-radius: 0.3rem;
+    border: 2px solid #eeeeee;
+    margin: 10px 10px 10px 10px;
+    height: 25px;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+}
+.line1{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 50px 300px 300px;
+}
+.line3{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 50px 250px 250px;
+}
+.line2{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 50px 350px 300px;
+}
+.line4{
+    margin-top: 20px;   
+    display: grid;
+    grid-template-columns: 120px 270px 300px;
+}
+.line5{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 120px 140px 140px 140px
+}
+.Member{
+    width: 50px;
+}
+.date{
+    width: 170px;
+    font-size: 18px;
+}
+
+.btn{
+    margin: 20px 0 20px 0;
+    display: grid;
+    place-items: center;
+}
+.button{
+    all:unset;
+    background-color: #282828;
+    color: white;
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+
+}
